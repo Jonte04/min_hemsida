@@ -1,8 +1,14 @@
 .top {
+  display: flex;
+  flex-direction: column;
   text-align: center;
   padding-top: 2em;
   padding-bottom: 2em;
   background-color: rgb(34, 34, 34);
+}
+.navbar {
+  display: flex;
+  margin-top: 2em;
 }
 .title {
   font-family: highgate, sans-serif;
@@ -11,7 +17,7 @@
 .content {
   display: flex;
   margin: 2.5em;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 .Om-mig {
   display: flex;
@@ -24,6 +30,9 @@
   border: 4px solid black;
   object-fit: contain;
 }
+.stor-bild {
+  display: none;
+}
 .bilder {
   display: flex;
 }
@@ -32,6 +41,10 @@ p {
   line-height: 1.6;
 }
 .nav-content {
+  font-family: highgate, sans-serif;
+  color: lightgrey;
+}
+.hyperlink {
   font-family: highgate, sans-serif;
   color: lightgrey;
 }
@@ -51,12 +64,19 @@ p {
   }
   .rubrik {
     margin-top: 1em;
-    font-size: 2em;
+    font-size: 3em;
   }
   p {
-    font-size: larger;
+    font-size: 1.2em;
   }
   .smilla {
-    width: 10em;
+    display: none;
+  }
+  .stor-bild {
+    display: block;
+    width: 18em;
+    height: auto;
+    border: 4px solid black;
+    object-fit: contain;
   }
 }
