@@ -35,6 +35,20 @@ p {
   font-family: highgate, sans-serif;
   color: lightgrey;
 }
+/*Image slider*/
+.slide img {
+  width: 30%;
+  height: 450px;
+  object-fit: cover;
+  position: absolute;
+  margin-left: 35%;
+  margin-bottom: 50px;
+  display: none;
+  border: 5px solid black;
+}
+.slide {
+  height: 450px;
+}
 
 @media screen and (max-width: 1155px) {
   .content {
