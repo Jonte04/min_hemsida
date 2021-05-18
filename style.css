@@ -53,17 +53,20 @@ p {
 
 /*Image slider*/
 .slide img {
-  width: 30%;
-  height: 450px;
+  width: 50%;
   object-fit: cover;
   position: absolute;
-  margin-left: 35%;
+  margin-left: 25%;
   margin-bottom: 50px;
   display: none;
   border: 5px solid black;
 }
+#image1 {
+  display: block;
+}
 .slide {
   height: 450px;
+  margin-top: 4em;
 }
 
 @media screen and (max-width: 1155px) {
@@ -78,6 +81,7 @@ p {
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 15px;
   }
   .rubrik {
     margin-top: 1em;
