@@ -47,6 +47,7 @@ p {
 .hyperlink {
   font-family: highgate, sans-serif;
   color: lightgrey;
+  padding-left: 50%;
 }
 
 @media screen and (max-width: 1155px) {
