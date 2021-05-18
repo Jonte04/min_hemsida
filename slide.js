@@ -30,7 +30,6 @@ document.getElementById("prevBtn").addEventListener("click", function () {
   slideImg[1].style.display = "none";
   slideImg[2].style.display = "none";
   slideImg[3].style.display = "none";
-  console.log(counter);
   if (counter === 1) {
     document.getElementById("image1").style.display = "block";
   } else if (counter === 2) {
