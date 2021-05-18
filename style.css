@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .top {
   display: flex;
   flex-direction: column;
@@ -5,10 +8,6 @@
   padding-top: 2em;
   padding-bottom: 1em;
   background-color: rgb(34, 34, 34);
-}
-.navbar {
-  display: flex;
-  margin-top: 0.5em;
 }
 .title {
   font-family: highgate, sans-serif;
@@ -43,15 +42,15 @@ p {
   font-family: highgate, sans-serif;
   line-height: 1.6;
 }
-.nav-content {
-  font-family: highgate, sans-serif;
-  color: lightgrey;
+.navbar {
+  display: flex;
+  margin-top: 0.5em;
+  justify-content: center;
 }
-
 .hyperlink {
   font-family: highgate, sans-serif;
   color: lightgrey;
-  display: flex;
+  padding-left: 0.5em;
 }
 .rubrik2 {
   margin: auto;
