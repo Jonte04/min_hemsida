@@ -17,7 +17,10 @@
 .content {
   display: flex;
   margin: 2.5em;
+  margin-bottom: 1.5em;
   justify-content: space-evenly;
+  padding-bottom: 50px;
+  border-bottom: 3px solid lightgrey;
 }
 .Om-mig {
   display: flex;
@@ -58,6 +61,7 @@ p {
 }
 .rubrik2 p {
   margin-bottom: 10px;
+  margin-top: 10px;
 }
 
 /*Image slider*/
