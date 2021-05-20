@@ -1,18 +1,6 @@
 html {
   scroll-behavior: smooth;
 }
-.top {
-  display: flex;
-  flex-direction: column;
-  text-align: center;
-  padding-top: 2em;
-  padding-bottom: 1em;
-  background-color: rgb(34, 34, 34);
-}
-.title {
-  font-family: highgate, sans-serif;
-  color: lightgrey;
-}
 .content {
   display: flex;
   margin: 2.5em;
@@ -42,16 +30,6 @@ html {
 p {
   font-family: highgate, sans-serif;
   line-height: 1.6;
-}
-.navbar {
-  display: flex;
-  margin-top: 0.8em;
-  justify-content: center;
-}
-.hyperlink {
-  font-family: highgate, sans-serif;
-  color: lightgrey;
-  padding-left: 0.5em;
 }
 /*Image slider*/
 .slide img {

@@ -1,0 +1,22 @@
+.top {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 2em;
+  padding-bottom: 1em;
+  background-color: rgb(34, 34, 34);
+}
+.title {
+  font-family: highgate, sans-serif;
+  color: lightgrey;
+}
+.navbar {
+  display: flex;
+  margin-top: 0.8em;
+  justify-content: center;
+}
+.hyperlink {
+  font-family: highgate, sans-serif;
+  color: lightgrey;
+  padding-left: 0.5em;
+}
