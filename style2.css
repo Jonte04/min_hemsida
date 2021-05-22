@@ -1,12 +1,29 @@
 .projects {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   margin-top: 2em;
-  max-width: 50%;
+  max-width: 90%;
   margin: auto;
 }
-
 .rubrik {
-  font-size: 2em;
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  margin-top: 1.3em;
+}
+.text {
+  margin-top: 0.3em;
+}
+#nextBtn {
+  margin-left: 25%;
+  z-index: 10;
+}
+#prevBtn {
+  margin-left: 10%;
+  z-index: 10;
+}
+@media screen and (max-width: 600px) {
+  .rubrik {
+    font-size: 1.5em;
+  }
 }

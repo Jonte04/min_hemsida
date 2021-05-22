@@ -31,40 +31,6 @@ p {
   font-family: highgate, sans-serif;
   line-height: 1.6;
 }
-/*Image slider*/
-.slide img {
-  border: 5px solid black;
-  width: 50%;
-  margin-left: 25%;
-  margin-bottom: 1em;
-  display: none;
-}
-#image1 {
-  display: block;
-}
-.slide {
-  display: flex;
-  align-items: center;
-}
-.slide-container {
-  font-size: 1.5em;
-}
-.fa {
-  position: absolute;
-  color: darksalmon;
-}
-.fa:hover {
-  color: darkorange;
-  cursor: pointer;
-}
-#nextBtn {
-  margin-left: 72.5%;
-  z-index: 10;
-}
-#prevBtn {
-  margin-left: 26%;
-  z-index: 10;
-}
 @media screen and (max-width: 1155px) {
   .content {
     flex-direction: column;
@@ -95,18 +61,5 @@ p {
     height: auto;
     border: 4px solid black;
     object-fit: contain;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .slide img {
-    width: 70%;
-    margin-left: 15%;
-  }
-  #prevBtn {
-    margin-left: 18%;
-  }
-  #nextBtn {
-    margin-left: 79%;
   }
 }
