@@ -41,18 +41,21 @@
     width: 100%;
     display: block;
     position: absolute;
-    text-align: right;
   }
   .drop-down img {
     width: 2em;
     margin-right: 1.5em;
   }
+  #drop-down-collum {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 75%;
+  }
   #drop-down-menu {
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    position: absolute;
-    margin-left: auto;
     background-color: white;
     border: 3px solid gray;
   }
