@@ -17,7 +17,6 @@
 }
 ol {
   margin: 0;
-  margin-top: 1.5em;
   padding: 0;
 }
 li video {
@@ -26,6 +25,7 @@ li video {
 li {
   font-size: 1.3em;
   margin-top: 1em;
+  margin-bottom: 1em;
 }
 @media screen and (max-width: 550px) {
   .rubrik {
