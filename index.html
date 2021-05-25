@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="rest.css" />
     <link rel="stylesheet" href="https://use.typekit.net/jpy0rzk.css" />
+    <link rel="stylesheet" href="topnav.css" />
+    <link rel="stylesheet" href="slider.css" />
+    <link rel="stylesheet" href="bottom.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -16,11 +19,25 @@
   <body>
     <div class="top">
       <h1 class="title">Jonatan Särnhmmar</h1>
+      <h1 class="title" id="title2">J S</h1>
       <nav class="navbar">
         <a class="hyperlink" href="#rubrik">Om mig</a>
         <a class="hyperlink" href="#prevBtn">Vad jag gillar</a>
+        <a class="hyperlink" href="index2.html">Mina projekt</a>
       </nav>
+      <div class="drop-down">
+        <div id="drop-down-collum">
+          <img onclick="show_hide()" src="bilder/dropdown.webp" alt="" />
+          <div id="drop-down-menu">
+            <a class="hyperlink" href="#rubrik">Om mig</a>
+            <a class="hyperlink" href="#prevBtn">Vad jag gillar</a>
+            <a class="hyperlink" href="index2.html">Mina projekt</a>
+          </div>
+          <script src="dropdown.js"></script>
+        </div>
+      </div>
     </div>
+
     <div class="content">
       <div class="bilder">
         <img
@@ -75,5 +92,8 @@
       </div>
     </div>
     <script src="slide.js"></script>
+    <div class="bottom">
+      <a href="#top">Go to top</a>
+    </div>
   </body>
 </html>
