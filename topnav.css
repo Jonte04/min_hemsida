@@ -48,6 +48,7 @@
   .drop-down img {
     width: 2em;
     margin-right: 1.5em;
+    border: none;
   }
   #drop-down-collum {
     display: flex;
