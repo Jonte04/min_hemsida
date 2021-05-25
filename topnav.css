@@ -30,6 +30,9 @@
   display: none;
 }
 @media screen and (max-width: 600px) {
+  .hyperlink {
+    color: black;
+  }
   .navbar {
     display: none;
   }
@@ -50,14 +53,17 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    margin-left: 75%;
+    margin-left: 70%;
   }
   #drop-down-menu {
     display: none;
     flex-direction: column;
-    align-items: baseline;
+    align-items: stretch;
     background-color: white;
     border: 3px solid gray;
+  }
+  #drop-down-menu a:hover {
+    background-color: lightgrey;
   }
   .top {
     display: flex;
