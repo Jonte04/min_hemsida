@@ -45,12 +45,15 @@ li img {
   }
   ol li video {
     width: 250px;
-    height: 150px;
+    height: 145px;
   }
 }
 @media screen and (max-width: 300px) {
   ol li video {
     width: 200px;
-    height: 150px;
+    height: 115px;
+  }
+  ol {
+    padding: 0;
   }
 }
