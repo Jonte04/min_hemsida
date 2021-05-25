@@ -52,7 +52,7 @@
   #drop-down-collum {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: flex-end;
     margin-left: 70%;
   }
   #drop-down-menu {
