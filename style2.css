@@ -1,3 +1,6 @@
+html {
+  scroll-behavior: smooth;
+}
 .projects {
   display: flex;
   flex-direction: column;
